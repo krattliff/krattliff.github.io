@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You've made it this far. Check out my links.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="evergreen_script.js"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen" onload="main();">
+  <div class="max-w-sm w-full p-6 bg-white rounded-2xl shadow-lg text-center">
+    <!-- Profile Section -->
+    <img id="ProfilePic" src="https://via.placeholder.com/100" alt="Profile Picture" class="w-24 h-24 rounded-full mx-auto mb-4 shadow-md">
+    <h1 id="YourName" class="text-xl font-bold mb-1">Your Name</h1>
+    <p id="YourTagline" class="text-gray-500 mb-6">Your tagline or bio goes here ✨</p>
+
+    <!-- Links Section -->
+    <div class="space-y-4">
+      <a href="https://example.com" target="_blank" 
+         id="link_website" class="block w-full py-3 px-4 bg-rose-400 text-white font-semibold rounded-xl shadow hover:bg-rose-700 transition">
+        ✒ My Designs
+      </a>
+      <a href="https://example.com" target="_blank" 
+         id="link_youtube" class="block w-full py-3 px-4 bg-teal-600 text-white font-semibold rounded-xl shadow hover:bg-teal-800 transition">
+        📻 Youtube playlists
+      </a>
+      <a href="https://instagram.com" target="_blank" 
+         id="link_ig" class="block w-full py-3 px-4 bg-pink-500 text-white font-semibold rounded-xl shadow hover:bg-pink-700 transition">
+        📸 IG
+      </a>
+      <a href="mailto:you@email.com" 
+         id="link_email" class="block w-full py-3 px-4 bg-violet-700 text-white font-semibold rounded-xl shadow hover:bg-violet-900 transition">
+         💌 Email Me
+      </a>
+      
+    </div>
+  </div>
+</body>
+</html>
