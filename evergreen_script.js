@@ -30,8 +30,8 @@ function main() {
     link_twitch.href = "https://www.twitch.tv/djsnorlinky";
 }
 
-let numButtonClicks = 0;
+/*let numButtonClicks = 0;
 function buttonClicked() {
     numButtonClicks = numButtonClicks + 1;
-    document.getElementById("VisitorCount").textContent = "Button Clicked times: " + numButtonClicks;
-}
+    document.getElementById("ButtonClickCounter").textContent = "Button Clicked times: " + numButtonClicks;
+}*/
