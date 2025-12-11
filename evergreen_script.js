@@ -23,11 +23,13 @@ function main() {
     var link_youtube = document.getElementById("link_youtube");
     link_youtube.href = "https://music.youtube.com/channel/UCfolPUjMjyLpGeXDe0cwVMw";
 
-    var link_imdb = document.getElementById("link_imdb");
-    link_imdb.href = "https://www.imdb.com/name/nm9273382/";
-
     var link_twitch = document.getElementById("link_twitch");
     link_twitch.href = "https://www.twitch.tv/djsnorlinky";
+
+    /* To be added later 
+    var link_imdb = document.getElementById("link_imdb");
+    link_imdb.href = "https://www.imdb.com/name/nm9273382/";
+    */  
 }
 
 /*let numButtonClicks = 0;
