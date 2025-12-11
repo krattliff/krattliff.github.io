@@ -26,7 +26,7 @@ function main() {
     var link_imdb = document.getElementById("link_imdb");
     link_imdb.href = "https://www.imdb.com/name/nm9273382/";
 
-    var link_gigemail = document.getElementById("link_twitch");
+    var link_twitch = document.getElementById("link_twitch");
     link_twitch.href = "https://www.twitch.tv/djsnorlinky";
 }
 
